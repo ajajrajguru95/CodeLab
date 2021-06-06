@@ -5,7 +5,9 @@ import ContentCard from '../../content-card/ContentCard';
 
 const CatCss = () => {
     return (
-        <ContentCard title={faker.lorem.sentence()} content={faker.lorem.paragraph()} />
+        <div className="css-block">
+            <ContentCard title={faker.lorem.sentence()} content={faker.lorem.paragraph()} />
+        </div>
     )
 }
 

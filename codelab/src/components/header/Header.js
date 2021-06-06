@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '../Link';
 
 const Header = () =>{
     return (
@@ -10,9 +11,21 @@ const Header = () =>{
                 <div className="col-lg-6">
                     <nav>
                         <ul>
-                            <li>CSS</li>
-                            <li>Javascript/jQuery</li>
-                            <li>PHP</li>
+                            <li>
+                                <Link href="/" className="nav-list">
+                                    CSS
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/js" className="nav-list">
+                                    Javascript/jQuery
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href="/php" className="nav-list">
+                                    PHP
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>
