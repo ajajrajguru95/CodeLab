@@ -4,7 +4,9 @@ import ContentCard from '../../content-card/ContentCard';
 
 const CatPhp = () => {
     return (
-        <ContentCard title={faker.lorem.sentence()} content={faker.lorem.paragraph()} />
+        <div className="php-block">
+            <ContentCard title={faker.lorem.sentence()} content={faker.lorem.paragraph()} />
+        </div>
     )
 }
 

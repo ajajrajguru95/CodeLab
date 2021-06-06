@@ -5,7 +5,9 @@ import ContentCard from '../../content-card/ContentCard';
 
 const CatJs = () => {
     return (
-        <ContentCard title={faker.lorem.sentence()} content={faker.lorem.paragraph()} />
+        <div className="js-block">
+            <ContentCard title={faker.lorem.sentence()} content={faker.lorem.paragraph()} />
+        </div>
     )
 }
 
