@@ -10,7 +10,7 @@ const Header = () =>{
                 </div>
                 <div className="col-lg-6">
                     <nav>
-                        <ul>
+                        <ul className="lists">
                             <li>
                                 <Link href="/" className="nav-list">
                                     CSS
